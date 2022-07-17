@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:padding="8.0dip"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/heading_back"
+            android:gravity="center"
+            android:text="Compiler Design"
+            android:textColor="#ffffffff"
+            android:textSize="32.0dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="Module – I"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="left"
+                android:padding="5.0dip"
+                android:text="Introduction to Compiling: Translators, Interpreters, Compiler, other language processors, Phases of a compiler, Passes of compiler, Back-end and Front-end of compiler, Basic idea on Symbol Table, Issues in Compiler construction, Concept on l-value and r-value, Programming Language basics, Compiler construction tools. \n\nLexical and Syntax Analysis: Lexical analysis: Role of a Lexical analyser, Input buffering, Specification and recognition of tokens, State-machine driven lexical analysers and their implementations, Lexical analyser generator tool: LEX/FLEX. "
+                android:textColor="#ff2b1e1e"
+                android:textSize="20.0dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="Module – II"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="left"
+                android:paddingLeft="4.0dip"
+                android:text="Syntax analysis: Need and Role of Parser, Importance of Context Free Grammars in designing Parser, Parse trees, derivations and sentential forms Ambiguity \n\nTop down parsing: Backtracking, Recursive descent and Predictive parsers (LL), Error-detection in LL parser Bottom-up parsing: Simple Shift-Reduce parsing, LR Parsers: SLR, CLR and LALR parsers, Error detection in S-R parsing, Handling ambiguous grammar, Parser generator tool: YACC/BISON "
+                android:textColor="#ff2b1e1e"
+                android:textSize="20.0dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="Module – III"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:padding="5.0dip"
+                android:text="Syntax Directed Translation: Syntax directed definitions, Construction of syntax tree, Attribute grammars, Inherited and synthesized attributes, Dependency graphs, Evaluation orders of attributes, S-Attributed definitions, L-attributed definitions. \n\nIntermediate code generation: Variants of Syntax Trees, Three-address codes of different constructs, Translation of expressions, Type checking: Rules for type checking, Type conversion; "
+                android:textColor="#ff2b1e1e"
+                android:textSize="20.0dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="Module – IV"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:padding="5.0dip"
+                android:text="Machine independent code optimization: Sources of optimization, DAG, Peephole optimization and Basic Blocks, Loops in Flow Graphs, Data flow analysis and equations "
+                android:textColor="#ff2b1e1e"
+                android:textSize="20.0dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="Module – V"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:padding="5.0dip"
+                android:text="Runtime Environment and Code Generation: Runtime environment: Storage organization: Static and Dynamic, Stack allocation and Heap allocation of memory; \n\nCode generation: Issues in designing of a code generator, Register allocation and Assignment, Target machine (assembly code for 80- series) "
+                android:textColor="#ff2b1e1e"
+                android:textSize="20.0dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="Text Books:"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:padding="5.0dip"
+                android:text="1. Aho A.V., Sheth R. I. and Ullman J.D. “Compilers Principles Techniques and Tools”, Pearson Education. "
+                android:textColor="#ff3a2929"
+                android:textSize="20.0dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="Reference Books:"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:padding="5.0dip"
+                android:text="1. Levine John R., Mason Tony, Brown Doug “Lex &amp;Yacc”, O’reilly. \n\n 2. Appel Andrew N., “Modern Compiler Implementation in C”, Cambridge University  Press. \n\n 3. Cooper &amp; Linda “Engineering a Compiler”, Elsevier theory."
+                android:textColor="#ff3a2929"
+                android:textSize="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

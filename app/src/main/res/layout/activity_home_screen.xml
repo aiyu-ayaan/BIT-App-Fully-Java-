@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    tools:context=".Home_Screen">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/tootbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:background="@color/colorPrimaryDark"
+                    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/iconBell"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dip"
+                        android:visibility="gone"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="Notice_Bell.json"
+                        app:lottie_loop="true" />
+
+                </androidx.appcompat.widget.Toolbar>
+
+                <FrameLayout
+                    android:id="@+id/frame"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@id/nav_bar"
+                    android:layout_below="@id/tootbar"
+                    android:layout_marginBottom="-1.0dip"
+                    android:background="@color/colorPrimary">
+
+                </FrameLayout>
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/nav_bar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:elevation="-10.0dip"
+                    android:fitsSystemWindows="true"
+                    app:itemBackground="@color/colorPrimary"
+                    app:itemIconTint="#ff000000"
+                    app:itemTextColor="#ff000000"
+                    app:layout_scrollFlags="enterAlways|scroll|snap"
+                    app:menu="@menu/nav_rows" />
+
+            </RelativeLayout>
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/sliderNavView"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="start"
+                android:background="@color/colorPrimary"
+                app:headerLayout="@layout/nav_header"
+                app:itemBackground="@color/colorPrimaryDark1"
+                app:itemIconTint="#ff000000"
+                app:itemTextColor="#ff000000"
+                app:menu="@menu/slider_nav" />
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

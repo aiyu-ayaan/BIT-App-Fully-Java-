@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/ThemeOverlay.AppCompat.Dark" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/backnav" android:scaleType="fitXY" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="35.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="8.0dip" android:text="BIT Lalpur " android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="2.0dip" android:layout_alignParentStart="true" />
+</RelativeLayout>

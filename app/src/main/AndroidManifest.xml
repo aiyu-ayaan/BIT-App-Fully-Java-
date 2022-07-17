@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aatec.bit">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".StartUp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateAlwaysVisible">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1159744948121617~2726342988" />
+
+
+        <!--        Syllabus-->
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem5.Books.mca_5_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem5.Books.mca_5_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem5.Books.mca_5_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem5.Books.mca_5_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem5.Books.mca_5_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem4.Books.mca_4_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem4.Books.mca_4_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem3.Books.mca_3_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem3.Books.mca_3_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem3.Books.mca_3_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem3.Books.mca_3_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem3.Books.mca_3_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem3.Books.mca_3_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem2.Books.mca_2_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem1.Books.mca_1_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem1.Books.mca_1_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem1.Books.mca_1_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem1.Books.mca_1_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem1.Books.mca_1_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Sem1.Books.mca_1_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem4.Books.mba_4_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem4.Books.mba_4_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_9" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem2.Books.mba_2_10" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Sem1.Books.mba_1_9" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_9" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_10" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_11" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_12" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_13" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_14" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_15" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_16" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_17" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_18" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_19" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_20" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem6.Books.bba_6_21" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem5.Books.bba_5_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem5.Books.bba_5_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem4.Books.bba_4_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem3.Books.bba_3_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem2.Books.bba_2_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem1.Books.bba_1_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem1.Books.bba_1_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem1.Books.bba_1_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem1.Books.bba_1_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem1.Books.bba_1_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Sem1.Books.bba_1_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem6.Books.bca_6_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_9" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_10" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem5.Books.bca_5_11" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_8" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_9" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_10" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem4.Books.bca_4_11" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem3.Books.bca_3_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_3" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem2.Books.bca_2_7" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem1.Books.bca_1_1" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem1.Books.bca_1_2" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem1.Books.bca_1_4" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem1.Books.bca_1_5" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem1.Books.bca_1_6" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Sem1.Books.bca_1_7" />
+
+        <!--        Syllabus-->
+        <activity android:name=".Bottom_Navigation.Syllabus.MCA.Main_mca" />
+        <activity android:name=".Bottom_Navigation.Syllabus.MBA.Main_mba" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BCA.Main_bca" />
+        <activity android:name=".Bottom_Navigation.Syllabus.BBA.Main_bba" />
+        <activity android:name=".Bottom_Navigation.Notice.NoticeDis.Notice_dis" />
+        <activity android:name=".Bottom_Navigation.Attendance.EditList.Edit_Attendance" />
+        <activity android:name=".Bottom_Navigation.Attendance.List_All.List_All" />
+        <activity android:name=".Sliding_Navigation.About_US.AboutUs" />
+        <activity android:name=".Sliding_Navigation.Holiday.Holiday" />
+        <activity android:name=".Sliding_Navigation.Society.SoicetyDis.Society_Discription" />
+        <activity android:name=".Sliding_Navigation.Society.Society" />
+        <activity android:name=".Sliding_Navigation.Event.Discription.Event_Discription" />
+        <activity android:name=".Sliding_Navigation.Event.Event_section" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.customSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home_Screen" />
+
+        <service android:name=".FCM.FirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

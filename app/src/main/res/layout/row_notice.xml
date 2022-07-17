@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5.0dip"
+    android:layout_marginTop="8.0dip"
+    android:layout_marginEnd="5.0dip"
+    android:background="@color/background"
+    android:elevation="10.0dip"
+    android:padding="5.0dip"
+    android:id="@+id/cardNotice"
+    app:cardCornerRadius="10.0dip">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="8.0dip">
+
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_notice"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10.0dip"
+            android:text="05 Aug 2020" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

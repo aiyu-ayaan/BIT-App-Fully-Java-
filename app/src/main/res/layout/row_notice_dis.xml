@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="10.0dip">
+
+        <WebView
+            android:id="@+id/dis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:longClickable="false"
+            android:scrollbars="none"
+            android:textSize="23.0dip" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/linkWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10.0dip"
+            android:backgroundTint="@color/colorAccent"
+            android:src="@drawable/link"
+            android:visibility="gone"
+            app:tint="@null" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

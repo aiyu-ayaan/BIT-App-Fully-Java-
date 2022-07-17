@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff2f3f5"
+    android:transitionName="expand">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/toolbar2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?colorPrimary"
+        android:elevation="5.0dip"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/toolbar2"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:padding="10.0dip">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8.0dip">
+
+                <TextView
+                    android:id="@+id/AddSubject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20.0dip"
+                    android:text="Edit Subject"
+                    android:textColor="#ff000000"
+                    android:textSize="40.0sp" />
+
+                <TextView
+                    android:id="@id/tvSubject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/AddSubject"
+                    android:layout_marginStart="20.0sp"
+                    android:layout_marginLeft="20.0sp"
+                    android:layout_marginTop="10.0sp"
+                    android:gravity="center"
+                    android:text="Subject"
+                    android:textColor="#ff000000"
+                    android:textSize="30.0sp" />
+
+                <EditText
+                    android:id="@id/edit_text_subject"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/AddSubject"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_toEndOf="@id/tvSubject"
+                    android:layout_toRightOf="@id/tvSubject"
+                    android:hint="eg.LOC"
+                    android:inputType="textCapSentences" />
+
+                <TextView
+                    android:id="@id/tvPresent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvSubject"
+                    android:layout_marginStart="20.0sp"
+                    android:layout_marginLeft="20.0sp"
+                    android:layout_marginTop="10.0sp"
+                    android:gravity="center"
+                    android:text="Initial Present"
+                    android:textColor="#ff000000"
+                    android:textSize="30.0sp" />
+
+                <EditText
+                    android:id="@id/edit_text_present"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edit_text_subject"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_toEndOf="@id/tvPresent"
+                    android:layout_toRightOf="@id/tvPresent"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:maxLength="4" />
+
+                <TextView
+                    android:id="@id/tvtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPresent"
+                    android:layout_marginStart="20.0sp"
+                    android:layout_marginLeft="20.0sp"
+                    android:layout_marginTop="10.0sp"
+                    android:gravity="center"
+                    android:text="Initial Class"
+                    android:textColor="#ff000000"
+                    android:textSize="30.0sp" />
+
+                <EditText
+                    android:id="@id/edit_text_total"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edit_text_present"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_toEndOf="@id/tvPresent"
+                    android:layout_toRightOf="@id/tvtotal"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:maxLength="4" />
+
+                <Button
+                    android:id="@+id/bt_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvtotal"
+                    android:layout_marginTop="20.0sp"
+                    android:layout_toStartOf="@id/edit_text_total"
+                    android:layout_toLeftOf="@id/edit_text_total"
+                    android:background="@drawable/add_sub_list"
+                    android:text="Update"
+                    android:textColor="#ffffffff" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

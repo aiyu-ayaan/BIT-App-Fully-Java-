@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    android:elevation="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    android:transitionName="society_img"
+    >
+
+    <RelativeLayout
+        android:id="@id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/rad"
+             />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20.0dip"
+            android:gravity="left"
+            android:text="RAD"
+            android:textColor="#ff000000"
+            android:textSize="20.0dip"
+            android:transitionName="ins" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

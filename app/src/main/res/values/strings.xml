@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">BIT App</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="title_activity_society">Society</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string-array name="Society">
+        <item>RAD</item>
+        <item>DEBSOC</item>
+        <item>INTERACT</item>
+        <item>ITS</item>
+        <item>BIZWIT</item>
+        <item>BITEXL</item>
+        <item>NAPS</item>
+    </string-array>
+    <string name="hello_world">Hello Square World!</string>
+
+    <string-array name="dis">
+        <item>"The Research and Development Wing of BIT, Lalpur has been driving research and innovation by giving free flying space to the brilliant minds of the college.\n\nIncepted with a vision of promoting an innovative temperament in thestudents making them future ready for a sustainable and ever growing world, the Research and Development Wing hasbeen taking huge strides towards fulfilling its vision and belief."
+        </item>
+        <item>"\"If you don't go after what you want, you’ll never have it. If you don’t ask, the answer is always no.If you don’t step forward, you’re always in the same place\".\n\nThe Debating Society gives you an opportunity toenhance and showcase your hidden talents and skills.\nGot creative writing skills?\nOr are you good at art andcraft?\nOr do you know the titbits of website management\n\n.Debsoc has got it all covered for you.Keeping apositive mindset so you don’t let negative thinking get the best of you. Debsoc lets you exploreopportunitiesbased on your self interests with lots of chances to organise and structure events in the college that will help you prove your worth in the college."
+        </item>
+        <item>"Interact society provides a platform to students for displaying their creativity and talents. Not just students with talents are involved but also who are keen to learn something new are most welcome.\n\nThe activities of the cultural committee are largely student-driven, and under the guidance of faculty members. Besides giving platforms to student for honing their talents and skills, the societies also organise their respective annual events."
+        </item>
+
+        <item>"Information Technology Society excels in rendering the college as well as the society with talents having high technical quotient thus ensuring proper nourishment of the budding IT experts...\n\nOur mission is to spread awareness regarding computer technology, software development and coding among general mass population by organizing several IT related games and events...."</item>
+
+
+        <item>"A society that strives towards excellence with constant team efforts. We are a team that believes it's the miniscule details at work that matters the most.A team that consists of various talented individuals.\n\nOur vision\n A society that transcends creativity and motivation at all stages of performance. It is to add value to both the team and an individual.\n\nWe believe that every individual possess a talent worth appreciating and bizwit makes sure one's talent should never be left unnoticed.\n\nBizwit a society where you can nurture yourself and identify your true inner potential. We give you a platform to develop the latent leadership qualities inside you."
+        </item>
+
+
+        <item>"BITEXL, the very first web-based society in BIT Extension, has emerged out to be one of the most celebrated and popular societies in the college. A society, which stands out with brilliance and out of the box thinking, and known for its unmatched level of intellect in its activities and events.\n\nApart from academia, we have never lacked the fun element and have always pulled out something productive and fun in all our events, making it more meaningful and thus standing out. Fun trips, outings and get together are planned from time to time to keep the team spirit high Our team members are our priority and strength at all times because we believe we have the most amazing and creative team of all, making us the most happening society."
+        </item>
+
+
+        <item>"NEWS AND PUBLISHING SOCIETY (Naps) is one of the most renowned societies of BIT Lalpur.\n\n We encourage the overall development and growth of the students of our college through numerous extracurricular activities. Our aim is to enhance and promote the fresh talents of the students for academic as well as recreational purposes.\n\nNaps mandate includes various offline and online events for moulding and recognising student's skills and knowledge and facilitating the best with exciting prizes and gifts.\n\nWe the \"NAPSodians\" strive for excellence at every juncture and work hard to achieve success in all the challenges we face."
+        </item>
+    </string-array>
+    <string-array name="link_society">
+        <item>https://instagram.com/rad.bitl?igshid=18y6bex16hrmb</item>
+        <item>https://instagram.com/debsoc?igshid=i</item>
+        <item>https://instagram.com/interact_society?igshid=1gy2ay5u5uozi</item>
+        <item>https://instagram.com/its_bitl?igshid=11sbj3y6p8sfm</item>
+        <item>https://instagram.com/bizwit_society?igshid=fzzeio01s0ht</item>
+        <item>https://instagram.com/bit_exl?igshid=1sdhdie2jxar8</item>
+        <item>https://instagram.com/news_and_publishing_society?igshid=hocmoo74ile4</item>
+    </string-array>
+
+</resources>

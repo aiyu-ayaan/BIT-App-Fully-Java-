@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:transitionName="img"
+            app:contentScrim="@android:color/transparent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll|snap"
+            app:scrimAnimationDuration="1000"
+            app:title="Ayaan">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="200.0dip"
+                android:layout_height="200.0dip"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/rad"
+                android:transitionName="society_img"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="2.0" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center|right"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="2.0">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/linkWeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:backgroundTint="@color/colorAccent"
+                    android:src="@drawable/link"
+                    android:visibility="invisible"
+                    app:tint="@null"
+                     />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/linkInsta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorAccent"
+                    android:src="@drawable/instagram"
+                    android:visibility="invisible"
+                    app:tint="@null"
+                    app:backgroundTint="@color/colorAccent"
+                    app:rippleColor="#00FFFFFF"
+                    />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar3"
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="25.0dip"
+            android:fillViewport="true"
+            android:scrollbars="none"
+            android:transitionName="dis">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10.0dip">
+
+                    <WebView
+                        android:id="@+id/dis"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:longClickable="false"
+                        android:scrollbars="none"
+                        android:textSize="23.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

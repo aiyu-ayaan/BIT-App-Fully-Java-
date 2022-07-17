@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:padding="8.0dip"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/heading_back"
+            android:gravity="center"
+            android:text="Numerical And Statistical Methods Lab"
+            android:textColor="#ffffffff"
+            android:textSize="32.0dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/chap_heading"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:text="List of Programs as Assignments:"
+                android:textColor="#ff2b1e1e"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:gravity="left"
+                android:padding="5.0dip"
+                android:text="1. Find a simple root of f(x)=0 using bisection method. Read the end points of the interval (a,b) in which the root lies, maximum number of iterations n and error tolerance eps. \n\n2. Find a simple root of f(x)=0 using Regula-Falsi method. Read the end points of the interval (a,b) in which the root lies, maximum number of iterations n and error tolerance eps. \n\n3. Find a simple root of f(x)=0 using Newton Raphson method. Read any initial approximation x₀,maximum number of iterations n and error tolerance eps. \n\n 4. Solution of a system of n x n linear equations using Gauss elimination method with partial pivoting. \n\n5. Matrix inversion and solution of n x n system of equations using Gauss-Jordan method. \n\n6. Program to solve a system of equation using Gauss-Seidel iteration method. Order of the matrix is n, maximum number of iterations n iter, error tolerance is eps and the initial approximation to the solution vector is x₀. \n\n7. Program for Lagrange and Newton divided difference interpolation. \n\n8. Program for Newton's forward and backward interpolation. \n\n9. Program for Gauss's central difference interpolation (both backward and forward). \n\n10. Program to evaluate the integral of f(x) between the limits a to b using Trapezoidal rule of integration based on n subintervals or n+1 nodal points. The values of a,b and n are to be read. The program is tested for f(x)=1/(1+x). \n\n11. Program to evaluate the integral of f(x) between the limits a to b using Simpson's rule of integration based on 2n subintervals or 2n+1 nodal points. The values of a,b and n are to be read and the integrand is written as a function subprogram. The program is tested for f(x)=1/(1+x). \n\n12. Program to solve an IVP,\ndy/dx=f(x),y(x₀)=y₀ using Euler method. The initial value x₀,y₀ the final value Xբ and the step size h are to be read. The program is tested for f(x,y)=-2xy². \n\n13. Program to solve an IVP,\ndy/dx=f(x),y(x₀) using the classical Runge-Kutta fourth order method with step size h, h/2 and also computes the estimate of the truncation error. Input parameters are : initial point, initial value, number of intervals and the step length h. Solutions with h, h/2 and the estimate of the truncation error are available as output. The right hand side The program is tested for f(x,y)=-2xy²."
+                android:textColor="#ff2b1e1e"
+                android:textSize="20.0dip"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

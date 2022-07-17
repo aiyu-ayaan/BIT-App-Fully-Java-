@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_soc"
+            android:icon="@drawable/ic_socity"
+            android:title="Societies" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_hol"
+            android:icon="@drawable/ic_holiday"
+            android:title="Holidays" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_connect"
+                android:icon="@drawable/ic_cwu"
+                android:title="Connect With Us" />
+            <item
+                android:id="@+id/nav_bug"
+                android:icon="@drawable/ic_bug"
+                android:title="Report Bug" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+        </menu>
+    </item>
+    <item android:title="Experimental Feature">
+        <menu>
+            <item
+                android:id="@+id/nav_review"
+                android:icon="@drawable/ic_rating"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>

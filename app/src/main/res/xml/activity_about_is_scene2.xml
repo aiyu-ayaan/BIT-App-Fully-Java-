@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+        <KeyFrameSet>
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="85"
+                motion:motionTarget="@+id/insta" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="90"
+                motion:motionTarget="@+id/textView3" />
+            <KeyAttribute
+                android:alpha="0.5"
+                motion:framePosition="90"
+                motion:motionTarget="@+id/scrollView" />
+            <KeyAttribute
+                android:translationX="40dp"
+                motion:framePosition="80"
+                motion:motionTarget="@+id/scrollView" />
+        </KeyFrameSet>
+        <OnClick />
+        <OnSwipe />
+       
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start" />
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/showData"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@+id/mainContainer"
+            motion:layout_constraintVertical_bias="1.0" />
+        <Constraint
+            android:id="@+id/mainContainer"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="2dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintHorizontal_bias="0.0"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintVertical_bias="1.0" />
+        <Constraint
+            android:id="@+id/bitLogo"
+            android:layout_width="80dp"
+            android:layout_height="0dp"
+            motion:layout_constraintBottom_toBottomOf="@id/mainContainer"
+            motion:layout_constraintStart_toStartOf="@id/mainContainer"
+            motion:layout_constraintTop_toTopOf="@id/mainContainer" />
+        <Constraint
+            android:id="@+id/insta"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="16dp"
+            android:alpha="1"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toBottomOf="@id/mainContainer"
+            motion:layout_constraintEnd_toEndOf="@id/mainContainer"
+            motion:layout_constraintTop_toTopOf="@id/mainContainer"
+            motion:layout_editor_absoluteX="308dp"
+            motion:layout_editor_absoluteY="110dp" />
+        <Constraint
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"
+            android:alpha="1"
+            motion:layout_constraintBottom_toBottomOf="@+id/insta"
+            motion:layout_constraintEnd_toStartOf="@+id/insta"
+            motion:layout_constraintStart_toEndOf="@+id/bitLogo"
+            motion:layout_constraintTop_toTopOf="@+id/insta" />
+
+        <Constraint
+            android:id="@id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:visibility="visible"
+            motion:layout_constraintBottom_toTopOf="@+id/mainContainer"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+
+    </ConstraintSet>
+</MotionScene>
